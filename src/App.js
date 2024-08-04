@@ -17,8 +17,8 @@ const App = () => {
           <Navbar.Brand href="/">
             <img
               src={logo}
-              width="150"
-              height="90"
+              width="100"
+              height="100"
               className="d-inline-block align-top"
               alt="Logo"
             />
