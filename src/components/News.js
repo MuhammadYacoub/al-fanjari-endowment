@@ -1,11 +1,12 @@
 import React from 'react';
+import { Container } from 'react-bootstrap';
 
 const News = () => {
   return (
-    <main>
+    <Container style={{ textAlign: 'right' }}>
       <h2>الأخبار</h2>
       <p>تابع آخر الأخبار والفعاليات الخاصة بوقف الدكتور محمد شوقي الفنجري.</p>
-    </main>
+    </Container>
   );
 };
 

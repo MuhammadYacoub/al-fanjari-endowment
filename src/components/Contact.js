@@ -1,11 +1,12 @@
 import React from 'react';
+import { Container } from 'react-bootstrap';
 
 const Contact = () => {
   return (
-    <main>
+    <Container style={{ textAlign: 'right' }}>
       <h2>اتصل بنا</h2>
       <p>لديك استفسارات؟ تواصل معنا عبر البريد الإلكتروني أو الهاتف.</p>
-    </main>
+    </Container>
   );
 };
 

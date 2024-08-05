@@ -1,16 +1,49 @@
 import React from 'react';
-import { Container, Row, Col, Button } from 'react-bootstrap';
+import { Container, Row, Col, Card } from 'react-bootstrap';
+import profilePicture from '../assets/profile-picture.jpg'; // تأكد من أن مسار الصورة صحيح
 
 const Home = () => {
   return (
-    <Container className="p-5 my-5 bg-light rounded" style={{ textAlign: 'right' }}>
-      <Row>
+    <Container className="my-5">
+      <Row className="text-center">
         <Col>
-          <h1>مرحبًا بكم في وقف الدكتور محمد شوقي الفنجري</h1>
-          <p>نحن ملتزمون بدعم الأبحاث والدعوة الإسلامية من خلال الجوائز والمنح الدراسية.</p>
-          <p>
-            <Button variant="primary">تعرف على المزيد</Button>
-          </p>
+          <img src={profilePicture} alt="Profile" className="rounded-circle mb-3" width="150" height="150" />
+          <h1>وقف الدكتور شوقي الفنجري</h1>
+          <p>وقف المرحوم المستشار الدكتور محمد شوقي الفنجري لصالح خدمة الدعوة والفقه الإسلامي برئاسة المستشار مسعد عبد المقصود الفنجري</p>
+        </Col>
+      </Row>
+      <Row className="mt-4">
+        <Col md={3}>
+          <Card className="mb-4">
+            <Card.Body>
+              <Card.Title>وقف المرحوم المستشار</Card.Title>
+              <Card.Text>وقف المرحوم المستشار الدكتور محمد شوقي الفنجري لصالح خدمة الدعوة والفقه الإسلامي برئاسة المستشار مسعد عبد المقصود الفنجري</Card.Text>
+            </Card.Body>
+          </Card>
+        </Col>
+        <Col md={3}>
+          <Card className="mb-4">
+            <Card.Body>
+              <Card.Title>وقف المرحوم المستشار</Card.Title>
+              <Card.Text>وقف المرحوم المستشار الدكتور محمد شوقي الفنجري لصالح خدمة الدعوة والفقه الإسلامي برئاسة المستشار مسعد عبد المقصود الفنجري</Card.Text>
+            </Card.Body>
+          </Card>
+        </Col>
+        <Col md={3}>
+          <Card className="mb-4">
+            <Card.Body>
+              <Card.Title>وقف المرحوم المستشار</Card.Title>
+              <Card.Text>وقف المرحوم المستشار الدكتور محمد شوقي الفنجري لصالح خدمة الدعوة والفقه الإسلامي برئاسة المستشار مسعد عبد المقصود الفنجري</Card.Text>
+            </Card.Body>
+          </Card>
+        </Col>
+        <Col md={3}>
+          <Card className="mb-4">
+            <Card.Body>
+              <Card.Title>وقف المرحوم المستشار</Card.Title>
+              <Card.Text>وقف المرحوم المستشار الدكتور محمد شوقي الفنجري لصالح خدمة الدعوة والفقه الإسلامي برئاسة المستشار مسعد عبد المقصود الفنجري</Card.Text>
+            </Card.Body>
+          </Card>
         </Col>
       </Row>
     </Container>
