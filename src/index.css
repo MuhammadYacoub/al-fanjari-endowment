@@ -1,9 +1,13 @@
+
+
 body {
   direction: rtl;
   text-align: right;
-  font-family: 'Arial', sans-serif;
+  font-family: "Tajawal", sans-serif;
   margin: 0;
   padding: 0;
+  font-style: normal;
+
 }
 
 .navbar-nav {
@@ -35,4 +39,11 @@ footer {
 
 .card-text {
   font-size: 0.9rem;
+}
+
+.section {
+  background-image: url(assets/images/profile-picture.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
