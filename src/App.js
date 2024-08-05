@@ -4,6 +4,8 @@ import Home from './components/Home';
 import logo from './assets/logo.png'; // تأكد من أن مسار الشعار صحيح
 // import profilePicture from './assets/profile-picture.jpg'; // تأكد من أن مسار الصورة صحيح
 
+
+
 const App = () => {
   return (
     <div>
